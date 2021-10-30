@@ -16,6 +16,12 @@ body {
     background: black;
     transition: all 1s ease;
     }
+    .first_line, .second_line {
+        padding: 0 0;
+        width: 100vw; 
+        display: flex; 
+        /* flex-wrap: wrap;    */
+    }
 
     .menucell{
         width: 110vw; 
@@ -41,7 +47,7 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         padding: 0;
-        transform: scale(90%);
+        /* transform: scale(90%); */
         transition: 1s ease;
     }
     .divm1 {
@@ -106,21 +112,20 @@ body {
     .laycell{
         width: 40vw; 
         height: 80vh; 
-        text-align: center;
+        text-align: top left;
         margin: auto auto; 
-        font-size: 16px;
-        color:black ; 
+        font-size: 10px;
+        color:white ; 
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         border: 1px solid white;
-        padding: auto;
         transition: 1s ease;
     }
     .laycell:hover{
         text-align: top;
         margin: auto auto;
-        font-size: 16px;
+        font-size: 10px;
         text-decoration: underline;
         color:rgba(50,255,0,1) ; 
         background-size: cover;
@@ -131,9 +136,40 @@ body {
     }
     .divp1, .divp2,.divp4,.divp5 {
         width: 40vw; 
-        height: 80vh;  
+        height: 60vh;  
+    }
+    .divp1_1, .divp4_1, .divp7_1, .divp10_1 {
+        height: 7vh; 
+        background-color: tomato;
+    }
+    .divp1_2, .divp4_2, .divp7_2, .divp10_2 {
+        height: 33vh; 
+        text-size-adjust: auto;
+        padding-right: 9%;
+    }
+    .divp2 {
+        background-image: url(submissions/altana_i_miss.jpeg); 
     }
     .divp3, .divp6 {
         width: 80vw; 
-        height: 80vh;  
+        height: 60vh;  
+    }
+    .divp5 {
+        background-image: url(submissions/masha_v_i_miss.jpeg);
+    }
+
+    .divp7, .divp9,.divp10,.divp12 {
+        width: 40vw; 
+        height: 60vh;  
+    }
+
+    .divp9 {
+        background-image: url(submissions/liza_i_miss.jpeg); 
+    }
+    .divp8, .divp11 {
+        width: 80vw; 
+        height: 60vh;  
+    }
+    .divp12 {
+        background-image: url(submissions/masha_k_i_miss.jpeg);
     }
