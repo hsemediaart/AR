@@ -4,7 +4,7 @@ body {
     width: 100vw; 
     height: 100vh; 
     background: black;
-    cursor: url("cursor1.png"), default;
+    cursor: url("cursor.png"), default;
 }
 
 .first_row, .second_row {
@@ -36,7 +36,7 @@ body {
         font-size: 16px;
         text-decoration: underline;
         color:rgba(50,255,0,1) ; 
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
         padding: auto;
@@ -46,7 +46,6 @@ body {
         height: 295px; 
         width: 240px;
         color:rgba(50,255,0,1) ; 
-      
         background: rgb(0,0,0);
         background: radial-gradient(circle, rgba(0,0,0,1) 45%, rgba(50,255,0,1) 45%);
         }
