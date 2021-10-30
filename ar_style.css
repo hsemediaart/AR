@@ -1,0 +1,38 @@
+.body {
+    /* margin: 0 auto; */
+    width: 100vw; 
+    height: 100vh; 
+    background: black;
+}
+
+.first_row, .second_row {
+    display: flex; 
+    /* flex-wrap: wrap;   */
+    justify-content: space-evenly;
+    background: black;
+    
+    }
+
+    .cell:hover {
+        border-radius: 1600px; 
+        /* border: 70px solid black; */
+        border:2px;
+        border-color: chartreuse;
+        /* background-image: url(cursor.jpg); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+.cell {
+    /* background-color: blue;  */
+    height: 295px; 
+    width: 240px;
+    background: radial-gradient(circle, rgba(255,215,0,1) 0%, rgba(14,224,228,1) 71%, rgba(0,64,255,1) 100%); 
+    /* border-radius: 50px; */
+    /* border: 3px solid white; */
+    /* transition: border-radius ease-in 0.5s; */
+    /* text-align: center; */
+ font-size: 50px; 
+ padding: auto;
+    }
