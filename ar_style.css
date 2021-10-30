@@ -13,25 +13,6 @@ body {
     background: black;
     }
 
-    .cell {
-        height: 295px; 
-        width: 240px;
-        transition: all 1s ease-out;
-        text-align: center; 
-        font-size: 50px; 
-        padding: auto;
-        }
-
-    .cell:hover {
-        /* border-radius: 1600px;  */
-        border: 70px solid; 
-        border:2px;
-        border-color: chartreuse;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
 
 
     .div1 {
