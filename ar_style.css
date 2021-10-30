@@ -7,7 +7,7 @@
 
 .first_row, .second_row {
     display: flex; 
-    /* flex-wrap: wrap;   */
+   flex-wrap: wrap;   
     justify-content: space-evenly;
     background: black;
     
