@@ -36,7 +36,7 @@ body {
         font-size: 16px;
         text-decoration: underline;
         color:rgba(50,255,0,1) ; 
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         padding: auto;
