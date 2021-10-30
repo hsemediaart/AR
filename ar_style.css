@@ -11,7 +11,6 @@ body {
    flex-wrap: wrap;   
     justify-content: space-evenly;
     background: black;
-    
     }
 
     .cell:hover {
@@ -51,13 +50,13 @@ body {
             background-position: center;
         }
 
-        .div2 {
+    .div2 {
             height: 295px; 
             width: 240px;
             background: rgb(50,255,0);
             background: radial-gradient(circle, rgba(50,255,0,1) 45%, rgba(0,0,0,1) 45%);
             }
-            .div2:hover {
+        .div2:hover {
                 background-color: rgb(0,0,0);
                 background: radial-gradient(circle, rgba(50,255,0,1) 6%, rgba(0,0,0,1) 15%);
                 background-size: cover;
@@ -65,7 +64,7 @@ body {
                 background-position: center;
                 transition: radial-gradient 0.5s ease;
             }
-        .div3 {
+    .div3 {
                 height: 295px; 
                 width: 240px;
                 background-image: url(light.svg); 
@@ -83,7 +82,7 @@ body {
                     background-repeat: no-repeat;
                     background-position: center;
                 }
-                .div4 {
+    .div4 {
                     height: 295px; 
                     width: 240px;
                     background-image: url(digit.svg); 
@@ -93,7 +92,7 @@ body {
                     font-size: 50px; 
                     padding: auto;
                     }
-            .div4:hover {
+        .div4:hover {
                         height: 295px; 
                         width: 240px;
                         background-image: url(digit_hover.svg); 
