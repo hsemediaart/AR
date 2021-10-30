@@ -41,7 +41,6 @@ body {
         background-position: center;
         padding: auto;
         transition: 1s ease;
-        cursor: url("cursor.png"), default;
     }
     .div1 {
         height: 295px; 
@@ -56,6 +55,7 @@ body {
             text-align: center;
             color: black;
             background: radial-gradient(circle, rgba(0,0,0,1) 6%, rgba(50,255,0,1) 15%);
+            cursor: url("cursor1.png"), default;
         }
 
         .div2 {
@@ -67,6 +67,7 @@ body {
         .div2:hover {
                 background-color: rgb(0,0,0);
                 background: radial-gradient(circle, rgba(50,255,0,1) 6%, rgba(0,0,0,1) 15%);
+                cursor: url("cursor.png"), default;
             }
             .div3 {
                 height: 295px; 
@@ -77,6 +78,7 @@ body {
                     height: 295px; 
                     width: 240px;
                     transform: rotate(180deg);
+                    cursor: url("cursor1.png"), default;
                 }
                 .div4 {
                     height: 295px; 
@@ -87,6 +89,7 @@ body {
                         height: 295px; 
                         width: 240px;
                         background-image: url(digit_hover.svg); 
+                        cursor: url("cursor.png"), default;
                     }
                     .div5 {
                         height: 295px; 
@@ -97,6 +100,7 @@ body {
                             height: 295px; 
                             width: 240px;
                             background-image: url(link_hover.svg); 
+                            cursor: url("cursor1.png"), default;
                             }
                         .div6 {
                                 height: 295px; 
@@ -107,6 +111,7 @@ body {
                                     height: 295px; 
                                     width: 240px;
                                     background-image: url(int_hover.svg); 
+                                    cursor: url("cursor.png"), default;
                                     }
                             .div7 {
                                         height: 295px; 
@@ -117,6 +122,7 @@ body {
                                             height: 295px; 
                                             width: 240px;
                                             background-image: url(opt_hover.svg); 
+                                            cursor: url("cursor1.png"), default;
                                           
                                             }
                                             .div8 {
@@ -128,6 +134,7 @@ body {
                                                     height: 295px; 
                                                     width: 240px;
                                                     transform: scaleX(200%);
+                                                    cursor: url("cursor.png"), default;
                                                     }
                         
         
